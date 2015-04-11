@@ -1,0 +1,20 @@
+HUFFMAN ENCODING - Data compression algorithm
+
+Note: I initially wrote this program for my Design & Analysis of Algorithms in C++.  
+I decided to do this program in Java for practice.
+
+Instructions to run this program: Run the MainClass.java file. 
+To run this program in Windows Command Prompt or the Mac Terminal:
+Type the following to create class files:
+javac HuffmanList.java
+javac Node.java
+javac MainClass.java
+Lastly, type this to run the program:  java MainClass
+
+Description:
+This program performs Huffman Encoding. Probability-character pairs can be modified in the MainClass java file.
+1. Probability-character pairs are insertion-sorted into a doubly linked list.
+2. The full list of the probability-character sorted list is printed to the user.
+3. A binary tree is created of this list and it is printed to the user.
+4. Binary codes and binary code lengths are created for each leaf node of the binary tree. These results are printed to the user 
+and the overall entropy.
